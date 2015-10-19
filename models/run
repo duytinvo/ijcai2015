@@ -1,0 +1,5 @@
+#!/bin/bash
+python targetdep+.py
+../libSVM/svm-scale -l -1 -u 1 -s ../liblinear/range ../data/output/training > ../liblinear/train.scale
+../libSVM/svm-scale -r ../liblinear/range ../data/output/testing > ../liblinear/test.scale
+python runliblinear.py
