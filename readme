@@ -1,7 +1,7 @@
 This code is used for the paper "Target-dependent Twitter Sentiment Classification with Rich Automatic Features" (IJCAI2015)
 
 To run the "targetdep+" model:
-- Change current directory to foder "ijcai2015/models"
+- Change current directory to folder "ijcai2015/models"
 - Type "./run" to:
 	+ Automatically extract rich features
 	+ Scale features
