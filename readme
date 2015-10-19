@@ -7,3 +7,4 @@ To run the "targetdep+" model:
 	+ Scale features
 	+ Learn model
 	+ Predict the accuracy.
+We only made a simple grid search to tune parameter C, so the testing result only reaches about 70% in accuracy. In order to get the result as in my paper (71%), you need to make a smoother grid search.
