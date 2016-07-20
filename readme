@@ -8,3 +8,19 @@ To run the "targetdep+" model:
 	+ Learn model
 	+ Predict the accuracy.
 We only made a simple grid search to tune parameter C, so the testing result only reaches about 70% in accuracy. In order to get the result as in our paper (71%), you need to make a smoother grid search.
+
+Reference:
+
+@InProceedings{vo-zhang:2015:ijcai,
+
+  author    = {Vo, Duy-Tin and Zhang, Yue},
+  
+  title     = {Deep Learning for Event-Driven Stock Prediction},
+  
+  booktitle = {Proceedings of IJCAI},
+  
+  month     = {August},
+  
+  year      = {2015},
+  
+  address   = {BueNos Aires, Argentina}}
